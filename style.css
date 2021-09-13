@@ -87,6 +87,36 @@ box-shadow: 1px 8px 16px -3px rgba(0,0,0,0.78);
     width: 55%;
 
 }
+.contactwhole {
+  width: 100%;
+  position: relative;
+  background-color: rgb(177, 177, 177);
+  /* margin: 0 auto; */
+  /* justify-content: center; */
+}
+.contactshadow {
+  top: 50px;
+  left: 20px;
+  z-index: -1;
+  font-size: 10em;
+  color: black;
+  position: absolute;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+
+}
+
+.contactimages {
+  /* color: rgb(93, 99, 94); */
+  /* position: absolute; */
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin: 15px;
+  position: relative;
+  font-size: 10em;
+  display: inline;
+  z-index: 5;
+}
 .flexdisplay {
     position: relative;
     margin: 5%;

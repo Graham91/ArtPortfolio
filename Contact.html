@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+        type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="./index.html">TM Project</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./otherstuff.html">3D Stuff</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="Description">
+        <div class="descriptiontitle"> Name: Graham Thomas</div>
+        <div>
+            <p class="descriptiontitle">
+                Contact:
+            </p>
+            <p>Email: gramham@live.com</p>
+            <p>Phone Number: (385) 424 - 7155</p>
+            <div style="position: relative;">
+                <div class="contactwhole">
+    
+    
+                    <a href="https://github.com/Graham91" class="contactimages" target="_blank">
+                        <i class="fa fa-github-square top" aria-hidden="true"></i>
+                        <i class="fa fa-github-square contactshadow" aria-hidden="true"></i>
+                    </a>
+    
+                    <a href="https://www.linkedin.com/in/graham-thomas-25358b198/" class="contactimages" target="_blank">
+                        <i class="fa fa-linkedin-square top" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin-square contactshadow" aria-hidden="true"></i>
+                    </a>
+    
+    
+                    <a href="mailto:email@example.com" class="contactimages">
+                        <i class="fa fa-envelope top"></i>
+                        <i class="fa fa-envelope contactshadow"></i>
+                    </a>
+    
+                    <a href="tel:3854247155" class="contactimages">
+    
+                        <i class="fa fa-phone-square top" id="phone"></i>
+                        <i class="fa fa-phone-square contactshadow" id="phone"></i>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+<script>
+    $(".contactimages").hover(function () {
+        $(".contactshadow", this).css("top", "35px");
+        $(".contactshadow", this).css("left", "0px");
+        // $(".top", this).css("font-size", "9.8");
+    }, function () {
+        $(".contactshadow", this).css("top", "50px");
+        $(".contactshadow", this).css("left", "20px");
+        // $(".top", this).css("font-size", "10
+    });
+</script>
+
+</html>
