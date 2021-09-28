@@ -22,166 +22,176 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Portfolio</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+  <div class="wrapper">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
 
-    </button>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">TM Project<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./otherstuff.html">3D Stuff</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./Contact.html">Contact</a>
-        </li>
-      </ul>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">TM Project<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./otherstuff.html">3D Stuff</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Contact.html">Contact</a>
+          </li>
+        </ul>
 
+      </div>
+    </nav>
+    <div class="Description">
+      <div class="descriptiontitle"> Project:
+        Tiny Monsters</div>
+      <div>
+        <p class="descriptiontitle">
+          Description:
+        </p>
+        <p>
+          This is a project I have been working on for quite some time. It showcases a lot of my abilities that I have
+          pick up as an artist. In total the project includes 5 large images I created using photoshop layering and my
+          figure drawing abilities, 5 3D Paper monster models, A python script working in conjunction with blender that
+          cuts the paper models pieces out of a flat surface/virtual paper and folds them into shape and finally several
+          animated figures designed to expound upon the intended message.
+        </p>
+        <p>
+          The intended outcome of this project is to produce serval videos designed to help those struggling with mental
+          illness. It is a visualization of a principle outlined in ACT therapy. Something that is near and dear to my
+          heart, as these principles helped me on my own journey through some very debilitating mental illness.
+        </p>
+        <p>
+          It was this project that first introduced me to the world of CGI. The models were initially intended to be
+          actual
+          paper models, and as the project progressed, I realized that the message could be better told using 3D
+          animations.
+          I am a natural learner and have learned everything online. Always looking to learn more.
+        </p>
+        <p>Follow me on instgram for more @grahamthomasart</p>
+
+      </div>
     </div>
-  </nav>
-  <div class="Description">
-    <div class="descriptiontitle"> Project:
-      Tiny Monsters</div>
-    <div>
-      <p class="descriptiontitle">
-        Description:
-      </p>
-      <p>
-        This is a project I have been working on for quite some time. It showcases a lot of my abilities that I have
-        pick up as an artist. In total the project includes 5 large images I created using photoshop layering and my
-        figure drawing abilities, 5 3D Paper monster models, A python script working in conjunction with blender that
-        cuts the paper models pieces out of a flat surface/virtual paper and folds them into shape and finally several
-        animated figures designed to expound upon the intended message.
-      </p>
-      <p>
-        The intended outcome of this project is to produce serval videos designed to help those struggling with mental
-        illness. It is a visualization of a principle outlined in ACT therapy. Something that is near and dear to my
-        heart, as these principles helped me on my own journey through some very debilitating mental illness.
-      </p>
-      <p>
-        It was this project that first introduced me to the world of CGI. The models were initially intended to be
-        actual
-        paper models, and as the project progressed, I realized that the message could be better told using 3D
-        animations.
-        I am a natural learner and have learned everything online. Always looking to learn more.
-      </p>
 
+    <div class="hideandshow navbar-brand" id="pythonVideoHide">Full Code Python Result
+      <p id="pythonCaret">&#9660</p>
     </div>
-  </div>
+    <div class="videos" id=pythonVideoHolder>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9vRaAu48f7I" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UqiVzTHOTfI" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="hideandshow navbar-brand" id="sculptedHide">3D Sculpted Paper Monsters
+      <p id="SculptedCaret">&#9660</p>
+    </div>
+    <div id="Sculpted">
+      <div class="flexdisplay">
+        <img src="./images/LionFishwithwatermark.png" id="picture" />
+        <div class="videosSCulpteed">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="560" src="https://www.youtube.com/embed/um0cTbt_Ul0"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="flexdisplay">
+        <img src="./images/octomanwatermark.jpeg" id="picture" />
+        <div class="videosSCulpteed">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="560" src="https://www.youtube.com/embed/9MuyUATj8aQ"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="flexdisplay">
+        <img src="./images/dinowatermark.png" id="picture" />
+        <div class="videosSCulpteed">
 
-  <div class="hideandshow navbar-brand" id="pythonVideoHide">Full Code Python Result
-    <p id="pythonCaret">&#9660</p>
-  </div>
-  <div class="videos" id=pythonVideoHolder>
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/9vRaAu48f7I" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/UqiVzTHOTfI" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
-  </div>
-  <div class="hideandshow navbar-brand" id="sculptedHide">3D Sculpted Paper Monsters
-    <p id="SculptedCaret">&#9660</p>
-  </div>
-  <div id="Sculpted">
-    <div class="flexdisplay">
-      <img src="./images/LionFishwithwatermark.png" id="picture" />
-      <div class="videosSCulpteed">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="560" src="https://www.youtube.com/embed/um0cTbt_Ul0" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="560" src="https://www.youtube.com/embed/znC1xTE924s"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="flexdisplay">
+        <img src="./images/birdMonster.png" id="picture" />
+        <div class="videosSCulpteed">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="560" src="https://www.youtube.com/embed/QnblmPS-As8"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="flexdisplay">
+        <img src="./images/frogwatermarkk.JPEG" id="picture" />
+        <div class="videosSCulpteed">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="560" src="https://www.youtube.com/embed/mA3s2YZPAuE"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </div>
-    <div class="flexdisplay">
-      <img src="./images/octomanwatermark.jpeg" id="picture" />
-      <div class="videosSCulpteed">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="560" src="https://www.youtube.com/embed/9MuyUATj8aQ" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <div class="flexdisplay">
-      <img src="./images/dinowatermark.png" id="picture" />
-      <div class="videosSCulpteed">
-
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="560" src="https://www.youtube.com/embed/znC1xTE924s" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <div class="flexdisplay">
-      <img src="./images/birdMonster.png" id="picture" />
-      <div class="videosSCulpteed">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="560" src="https://www.youtube.com/embed/QnblmPS-As8" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-    <div class="flexdisplay">
-      <img src="./images/frogwatermarkk.JPEG" id="picture" />
-      <div class="videosSCulpteed">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe width="560" height="560" src="https://www.youtube.com/embed/mA3s2YZPAuE" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div></div>
+    <div></div>
 
 
-  </div>
-  <div class="hideandshow navbar-brand" id="CharacterHide">Animated Characters For Final Video
-    <p id="CharacterCaret">&#9660</p>
-  </div>
-  <div class="videos" id=character>
 
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/29JSpAtJmP4" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+    <div class="hideandshow navbar-brand" id="CharacterHide">Animated Characters For Final Video
+      <p id="CharacterCaret">&#9660</p>
     </div>
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/96kLxafuQxA" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/UQq60p16LSM" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </div>
-    <div class="embed-responsive embed-responsive-16by9">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/kywdbTMeP78" title="YouTube video player"
-      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
+    <div class="videos" id=character>
+
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/29JSpAtJmP4" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/96kLxafuQxA" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/UQq60p16LSM" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/kywdbTMeP78" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+
+      <!-- <div class="videos"></div> -->
     </div>
   </div>
-  <div class="videos"></div>
 </body>
 <script>
   let pythonOpen = true;
